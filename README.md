@@ -1,6 +1,6 @@
 # TRIME: Training Language Models with Memory Augmentation
 
-This is the repository for the paper [Training Language Models with Memory Augmentation](https://github.com/princeton-nlp/TRIME/blob/main/paper/TRIME.pdf), by Zexuan Zhong, Tao Lei, and Danqi Chen.
+This is the repository for the paper [Training Language Models with Memory Augmentation](https://www.cs.princeton.edu/~zzhong/papers/TRIME.pdf), by Zexuan Zhong, Tao Lei, and Danqi Chen.
 
 Our code and models are coming soon!
 
