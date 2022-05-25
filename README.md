@@ -6,6 +6,6 @@ Our code and models are coming soon!
 
 We propose a new training objective TRIME for language modeling—inspired by contrastive learning—which aligns with both token embeddings and *in-batch memories*. 
 
-![Method](images/method.jpg)
+<img src="images/method.png" width="600">
 
 If you have any questions about our paper, please contact Zexuan Zhong (zzhong@cs.princeton.edu)!
