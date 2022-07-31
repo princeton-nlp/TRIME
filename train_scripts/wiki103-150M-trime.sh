@@ -1,0 +1,11 @@
+python train.py --task language_modeling data-bin/wikitext-103 \
+    --save-dir output/wiki103-150M-trime \
+    --arch transformer_lm_wiki103_150M \
+    --criterion trime_loss \
+    --optimizer adam --adam-betas "(0.9, 0.98)" --weight-decay 0.01 --clip-norm 0.0 \
+    --max-update 200000 --lr 0.0005 --lr-scheduler inverse_sqrt \
+    --warmup-updates 8000 --warmup-init-lr 1e-07 \
+    --max-tokens 9000 --update-freq 2 --tokens-per-sample 150 \
+    --seed 1 --sample-break-mode none --skip-invalid-size-inputs-valid-test --ddp-backend=no_c10d --adaptive-input --tie-adaptive-weights --adaptive-input-cutoff 20000,60000 --adaptive-softmax-cutoff 20000,60000 \
+    --knn-keytype last_ffn_input --fp16 \
+    --ce-warmup-epoch 3 --required-batch-size-multiple 1 --adaptive-softmax-factor 1 --adaptive-input-factor 1 \
