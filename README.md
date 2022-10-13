@@ -1,6 +1,6 @@
 # TRIME: Training Language Models with Memory Augmentation
 
-This is the repository for the paper [Training Language Models with Memory Augmentation](https://arxiv.org/abs/2205.12674), by [Zexuan Zhong](https://www.cs.princeton.edu/~zzhong/), [Tao Lei](https://taolei87.github.io), and [Danqi Chen](https://www.cs.princeton.edu/~danqic/).
+This is the repository for our EMNLP2022 paper [Training Language Models with Memory Augmentation](https://arxiv.org/abs/2205.12674), by [Zexuan Zhong](https://www.cs.princeton.edu/~zzhong/), [Tao Lei](https://taolei87.github.io), and [Danqi Chen](https://www.cs.princeton.edu/~danqic/).
 
 ## Quick links
 * [Overview](#overview)
@@ -284,11 +284,11 @@ If you have any questions related to the code or the paper, or you encounter any
 # Citation
 If you use our code in your research, please cite our work:
 ```bibtex
-@article{zhong2022training,
-  title={Training Language Models with Memory Augmentation},
-  author={Zhong, Zexuan and Lei, Tao and Chen, Danqi},
-  journal={arXiv preprint arXiv:2205.12674},
-  year={2022}
+@inproceedings{zhong2022training,
+   title={Training Language Models with Memory Augmentation},
+   author={Zhong, Zexuan and Lei, Tao and Chen, Danqi},
+   journal={Empirical Methods in Natural Language Processing (EMNLP)},
+   year={2022}
 }
 ```
 
