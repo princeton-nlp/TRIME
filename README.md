@@ -2,6 +2,11 @@
 
 This is the repository for our EMNLP2022 paper [Training Language Models with Memory Augmentation](https://arxiv.org/abs/2205.12674), by [Zexuan Zhong](https://www.cs.princeton.edu/~zzhong/), [Tao Lei](https://taolei87.github.io), and [Danqi Chen](https://www.cs.princeton.edu/~danqic/).
 
+## Updates
+* [2022/10/25] Our paper has been accepted to EMNLP 2022! Please check out the [updated version](https://arxiv.org/pdf/2205.12674.pdf). We have added domain adaptation and stronger results on machine translation and character-level language modeling.
+* [2022/07/31] We have released our [training code](#train-trimelm) and [pre-trained models](#run-pre-trained-models).
+* [2022/05/24] We have released the preprint of our [TRIME paper](https://arxiv.org/pdf/2205.12674v1.pdf) on training LMs with memory augmentation.
+
 ## Quick links
 * [Overview](#overview)
 * [Setup](#setup)
