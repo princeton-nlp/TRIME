@@ -3,6 +3,7 @@
 This is the repository for our EMNLP2022 paper [Training Language Models with Memory Augmentation](https://arxiv.org/abs/2205.12674), by [Zexuan Zhong](https://www.cs.princeton.edu/~zzhong/), [Tao Lei](https://taolei87.github.io), and [Danqi Chen](https://www.cs.princeton.edu/~danqic/).
 
 ## Updates
+* [2022/11/13] We have released the code and pre-trained models for the machine translation experiments [here](https://github.com/princeton-nlp/TRIME/tree/main/machine_translation). 
 * [2022/10/25] Our paper has been accepted to EMNLP 2022! Please check out the [updated version](https://arxiv.org/pdf/2205.12674.pdf). We have added domain adaptation and stronger results on machine translation and character-level language modeling.
 * [2022/07/31] We have released our [training code](#train-trimelm) and [pre-trained models](#run-pre-trained-models).
 * [2022/05/24] We have released the preprint of our [TRIME paper](https://arxiv.org/pdf/2205.12674v1.pdf) on training LMs with memory augmentation.
@@ -298,4 +299,4 @@ If you use our code in your research, please cite our work:
 ```
 
 # Acknowledgement
-Our repo is based on the [fairseq](https://github.com/facebookresearch/fairseq) and [knnlm](https://github.com/urvashik/knnlm) projects. We thank the authors for open-sourcing the great code!
+Our repo is based on the [fairseq](https://github.com/facebookresearch/fairseq), [knnlm](https://github.com/urvashik/knnlm), and [adaptive-knn-mt](https://github.com/zhengxxn/adaptive-knn-mt) projects. We thank the authors for open-sourcing the great code!
