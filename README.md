@@ -22,6 +22,7 @@ This is the repository for our EMNLP2022 paper [Training Language Models with Me
   * [Trime loss functions](#trime-loss-functions)
   * [Training scripts](#training-scripts)
   * [BM25 batching](#bm25-batching)
+* [Machine Translation](#machine-translation)
 * [Bugs or Questions?](#bugs-or-questions)
 * [Citation](#citation)
 * [Acknowledgement](#acknowledgement)
@@ -283,6 +284,9 @@ The output file `wiki103-l3072-batches.json` contains a list of indices of train
 
 The batch file `wiki103-l3072-batches.json` can be used during the training of TrimeLM_ext, with the argument `--predefined-batches`.
 During training, we simply get training batches by taking sub-lists sequencitally from the file.
+
+## Machine Translation
+For machine translation code and experiments, please check out the [subdirectory](https://github.com/princeton-nlp/TRIME/tree/main/machine_translation).
 
 # Bugs or Questions?
 If you have any questions related to the code or the paper, or you encounter any problems when using the code, feel free to email Zexuan Zhong `(zzhong@cs.princeton.edu)` or open an issue. Please try to specify the problem with details so we can help you better and quicker!
