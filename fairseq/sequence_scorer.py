@@ -235,7 +235,7 @@ class SequenceScorer(object):
             new_labels = torch.cat((self.mem[1], new_labels.detach()), dim=0)
 
         L = new_reps.shape[0]
-        self.mem = (new_reps[L-self.args.mem_size:], new_labels[L-self.args.mem_size:])
+        self.mem = (new_reps[max(L-self.args.mem_size,0):], new_labels[max(L-self.args.mem_size,0):])
         self.last_ids = new_ids
         self.tot_mem += new_reps.shape[0]
 
