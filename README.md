@@ -297,7 +297,7 @@ If you use our code in your research, please cite our work:
 @inproceedings{zhong2022training,
    title={Training Language Models with Memory Augmentation},
    author={Zhong, Zexuan and Lei, Tao and Chen, Danqi},
-   journal={Empirical Methods in Natural Language Processing (EMNLP)},
+   booktitle={Empirical Methods in Natural Language Processing (EMNLP)},
    year={2022}
 }
 ```
